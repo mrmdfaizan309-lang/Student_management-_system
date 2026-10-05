@@ -1,0 +1,39 @@
+{
+  "name": "edumanage",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:push": "prisma db push",
+    "db:studio": "prisma studio",
+    "auth:create": "node scripts/create-account.cjs"
+  },
+  "dependencies": {
+    "@prisma/client": "6.19.0",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^18.0.4",
+    "jose": "^6.2.12",
+    "lucide-react": "latest",
+    "next": "latest",
+    "nodemailer": "^10.0.10",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "latest",
+    "@types/node": "latest",
+    "@types/nodemailer": "^8.0.2",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "prisma": "6.19.0",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  }
+}
